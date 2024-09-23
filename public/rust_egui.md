@@ -1,11 +1,11 @@
 ---
 title: rustのguiライブラリeguiのテンプレートをdocker上で動かしてみる
 tags:
-  - rust
+  - Rust
   - egui
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-09-24T01:10:02+09:00'
+id: 692002ebccfb40d82901
 organization_url_name: null
 slide: false
 ignorePublish: false
