@@ -14,6 +14,20 @@ ignorePublish: false
 
 rustのguiアプリを作るのに、まずは一番簡単なeguiを使ってみようと思って、環境構築してみた。
 
+## eguiとは
+
+Rust の egui は、シンプルかつ即時モード（immediate mode）で動作する GUI ライブラリです。
+軽量で使いやすく、クロスプラットフォーム対応しており、ゲームやツール開発に便利です。
+コード内でウィジェットを直接作成・操作でき、リアルタイムなインタラクションが可能です。
+（ChatGPT による説明）
+
+## docker 上で egui のテンプレートを動かす
+
+以下の egui の テンプレート実行してみる
+
+[emilk/eframe_template at master](https://github.com/emilk/eframe_template/tree/master)
+
+
 ### 環境
 windows 11 wsl ubuntu 24.04
 
@@ -74,6 +88,8 @@ RUN apt-get update \
 
 WORKDIR /workspace
 ```
+
+### 実行方法
 
 以下のコマンドを実行する
 
