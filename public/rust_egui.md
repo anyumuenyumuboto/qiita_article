@@ -52,7 +52,7 @@ services:
       - WAYLAND_DISPLAY=
 ```
 
-```Dockerfile
+```Dockerfile:Dockerfile
 FROM rust:latest
 
 ENV CARGO_TARGET_DIR=/tmp/target \
@@ -77,13 +77,14 @@ WORKDIR /workspace
 
 以下のコマンドを実行する
 
-
+wsl 上で
 ```bash
 docker compose build
 docker compose up -d
 dockeer container exec -it myrust_gui bash
 ```
 
+docker コンテナ内で
 ```bash
 git clone https://github.com/emilk/eframe_template.git
 cd eframe_template
